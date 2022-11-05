@@ -38,15 +38,21 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: solid red;
+  background-color: rgb(130, 220, 255);
 }
 
 /* хедер */
+
+.container-flex {
+  margin-top: 32px;
+  align-items: center;
+  display: flex;
+}
 
 .header {
   border-bottom: 1px solid var(--header-line-color);
@@ -63,7 +69,7 @@ ul {
   line-height: 1.1923;
 
   display: inline-block;
-  margin: 24px 0px 25px 0px;
+  /* margin: 24px 0px 25px 0px; */
 }
 
 .logo-color {
@@ -76,6 +82,12 @@ ul {
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.nav-flex {
+  display: flex;
+  gap: 50px;
+  margin-left: 93px;
 }
 
 .current {
@@ -96,12 +108,20 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.contact-flex {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
 /* основна частина */
 .hero {
   background: var(--dark-background-color);
+  text-align: center;
 }
 
 .title {
+  margin-top: 200px;
   font-size: 44px;
   line-height: 1.3636;
   font-weight: 900;
@@ -109,11 +129,12 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-white);
-
   margin-top: 200px;
   margin-bottom: 30px;
 }
+
 /* кнопка */
+
 .order-button {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
@@ -132,8 +153,6 @@ ul {
 
   min-width: 216px;
   margin-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .order-button:focus .order-button:hover {
@@ -174,6 +193,17 @@ ul {
 .benefits-margin {
   margin-top: 94px;
   margin-bottom: 94px;
+}
+
+.benefits-item {
+  display: flex;
+
+  gap: 30px;
+}
+
+.benefits-item li {
+  align-items: center;
+  width: calc((100%-90) / 4);
 }
 
 .benefits-text {
@@ -284,7 +314,7 @@ ul {
   margin-bottom: 60px;
 }
 
-.footer-list > li {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
 
