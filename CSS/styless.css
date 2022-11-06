@@ -70,9 +70,6 @@ ul {
   font-size: 26px;
   line-height: 1.1923;
   display: inline-block;
-
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
 }
 
 .logo-color {
@@ -132,7 +129,6 @@ ul {
   font-size: 44px;
   line-height: 1.3636;
   font-weight: 900;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color-white);
@@ -248,7 +244,6 @@ ul {
   gap: 30px;
   align-items: center;
   justify-content: center;
-  /* display: inline-block; */
 }
 
 .diractions-item {
