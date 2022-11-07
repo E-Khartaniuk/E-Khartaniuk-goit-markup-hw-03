@@ -55,8 +55,6 @@ ul {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--header-line-color);
   background-color: var(--text-color-white);
 }
@@ -70,11 +68,19 @@ ul {
   font-size: 26px;
   line-height: 1.1923;
   display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-color {
   color: var(--accent-color);
 }
+
+.nav-list-item {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .nav-link {
   text-decoration: none;
   font-weight: 500;
@@ -82,15 +88,16 @@ ul {
   line-height: 1.1428;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .nav-flex {
   display: flex;
   gap: 50px;
   margin-left: 93px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .current {
@@ -156,6 +163,8 @@ ul {
   border-radius: 4px;
   border: none;
   min-width: 216px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .order-button:focus .order-button:hover {
@@ -206,7 +215,7 @@ ul {
 
 .benefits-item li {
   align-items: center;
-  width: calc((100%-90) / 4);
+  width: calc((100% - 90) / 4);
 }
 
 .benefits-text {
@@ -247,7 +256,7 @@ ul {
 }
 
 .diractions-item {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
 }
 
 /* Наша команда */
@@ -284,9 +293,9 @@ ul {
 }
 
 .team-img {
-  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .team-name {
@@ -306,8 +315,11 @@ ul {
   letter-spacing: 0.03em;
 
   text-align: center;
+}
 
-  margin-bottom: 30px;
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* футер */
@@ -424,6 +436,10 @@ ul {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .project {
@@ -431,9 +447,10 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  padding-top: 20px;
+  margin-bottom: 4px;
+  /* padding-top: 20px;
   margin-right: 24px;
-  margin-left: 24px;
+  margin-left: 24px; */
 }
 
 .project-type {
@@ -441,9 +458,9 @@ ul {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-right: 24px;
+  /* margin-right: 24px;
   margin-left: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 24px; */
 }
 
 .adress-bg {
